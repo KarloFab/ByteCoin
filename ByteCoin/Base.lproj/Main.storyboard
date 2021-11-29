@@ -59,7 +59,7 @@
                                 </subviews>
                             </stackView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQk-Ez-dri">
-                                <rect key="frame" x="0.0" y="646" width="0.0" height="216"/>
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pickerView>
                         </subviews>
@@ -74,6 +74,11 @@
                             <constraint firstItem="uQk-Ez-dri" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uto-fQ-NXD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currencyLabel" destination="cl1-tq-G1w" id="G5J-ok-ge4"/>
+                        <outlet property="currencyPicker" destination="uQk-Ez-dri" id="Mq2-UZ-V36"/>
+                        <outlet property="valueLabel" destination="aok-i7-pZy" id="Uf9-Jp-rJw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
